@@ -34,7 +34,7 @@ Première étape de la résolution, on transforme -5x en -x+6x. Cette transforma
 
 On factorise donc par x (x^2-x) et par 6 (6x+6). 
 
-On obtient ainsi le facteur commun (x-1). On factorise par ce facteur commun et on obtient les deux racines du polynome de départ.
+On obtient ainsi le facteur commun (x-1). On factorise par ce facteur commun et on obtient les deux racines du polynôme de départ.
 
 Quod erat demonstrandum.
 
@@ -44,7 +44,7 @@ Une autre technique aurait aussi pu être utilisé ici.
 
 Il s'agit de la factorisation forcé par une racine évidente. 
 
-Ici 1 était une racine évidente. On aurait donc très bien pu factoriser par (x-1) le polynome pour obtenir l'autre racine.
+Ici 1 était une racine évidente. On aurait donc très bien pu factoriser par (x-1) le polynôme pour obtenir l'autre racine.
 
 D'ailleurs, on a abordé cette technique en mathématiques expertes, pour ceux qui sont dans ma classe. :)
 
