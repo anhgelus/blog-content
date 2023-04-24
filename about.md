@@ -32,4 +32,5 @@ et de philosophie :
 - Technologies : je suis un grand fan de Linux (*I use arch btw*) et de l'open source (FOSS). Je développe aussi beaucoup sur mon temps libre (suffit de voir mon [GitHub](https://github.com/anhgelus) pour s'en rendre compte).
 - Politique : j'ai pas tellement envi de m'étendre sur ce sujet mais sachez que je suis contre toute forme de populisme et de révolutionnarisme (oui ce mot existe).
 - Musiques : (british) Metalcore head, ai-je vraiment besoin d'en dire plus ? Quels groupes ? While She Sleeps, Architects, Lorna Shore essentiellement.
-- Philosophie : je suis un grand fan de la philosophie de l'existence (Sartre, Camus, etc.) et de la philosophie nietzschéenne.
+- Philosophie : grand fan de l'humanisme athée (Sartre, Nietzsche, Camus, Marx) et de toute pensée en découlant.
+
