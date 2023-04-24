@@ -26,10 +26,10 @@ produit par [Louis Le Grand](https://www.louislegrand.fr/) et par [Henri IV](htt
 #### Que des maths ?
 
 Si on m'enlève les maths, je suis aussi un grand fan de jeux vidéos, de technologies, de politique, de musiques
-et de pilosophie :
+et de philosophie :
 
 - Jeux vidéos : attendez-vous à de l'indé et à du jeu en ligne car je raffole de ça (l'indé est un peu le seul "type" de jeu qui innove et le jeu en ligne car c'est fun de jouer avec ses potes).
 - Technologies : je suis un grand fan de Linux (*I use arch btw*) et de l'open source (FOSS). Je développe aussi beaucoup sur mon temps libre (suffit de voir mon [GitHub](https://github.com/anhgelus) pour s'en rendre compte).
 - Politique : j'ai pas tellement envi de m'étendre sur ce sujet mais sachez que je suis contre toute forme de populisme et de révolutionnarisme (oui ce mot existe).
 - Musiques : (british) Metalcore head, ai-je vraiment besoin d'en dire plus ? Quels groupes ? While She Sleeps, Architects, Lorna Shore essentiellement.
-- Pilosophie : je suis un grand fan de la philosophie de l'existence (Sartre, Camus, etc.) et de la philosophie nietzschéenne.
+- Philosophie : je suis un grand fan de la philosophie de l'existence (Sartre, Camus, etc.) et de la philosophie nietzschéenne.
