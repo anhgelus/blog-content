@@ -1,0 +1,32 @@
+\documentclass[a4paper,fleqn]{article}
+
+\usepackage{bbm}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\date{\today}
+\newcommand{\mycomment}[1]{}
+
+\begin{document}
+	$\text{Soit } f(x) = -x^2-5x+6$ \\ \\
+	Ainsi :
+	\[
+		\ln(-x^2-5x+6)=\ln(f(x))
+	\]
+	Vu que la fonction $\ln$ est définie sur $\mathbb{R}+^*$, il faut donc trouver quand $f$ n'est pas dans cet interval. \\
+	Cela revient à résoudre :
+	\[
+		f(x)>0
+	\]
+	Résolvons :
+	\begin{alignat*}{3}
+		~ & f(x) & > & 0 \\
+		\Leftrightarrow  & -x^2-5x+6        & ~>~ & 0 \\
+		\Leftrightarrow  & -x^2-x+6x+6      & ~>~ & 0 \\
+		\Leftrightarrow  & -(x(x-1)+6(x-1)) & ~>~ & 0 \\
+		\Leftrightarrow  & -(x-1)(x+6)      & ~>~ & 0 \\
+	\end{alignat*}
+	L'ensemble solution est alors évident. \\
+	$\text{S } = ]-6;1[$
+\end{document}
+
