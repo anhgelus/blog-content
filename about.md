@@ -21,7 +21,7 @@ En tant que spé maths et apôtre des maths expertes, je ne pouvais pas passer �
 de résoudre des problèmes intéressants et non conventionnels pour un élève de terminal.
 C'est donc pour cette raison que j'ai décidé de lancer les Mathematics Challenge qui se basent essentiellement sur
 la [liste d'exercices](https://www.louislegrand.fr/wp-content/uploads/2022/01/EXOS-TERMINALE3-3-AVECDESSIN.pdf)
-produit par [Louis Le Grand](https://www.louislegrand.fr/) et par [Henri IV](https://lycee-henri4.com/).
+produite par [Louis Le Grand](https://www.louislegrand.fr/) et par [Henri IV](https://lycee-henri4.com/).
 
 #### Que des maths ?
 
