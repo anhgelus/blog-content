@@ -119,6 +119,8 @@ Pour développer, j'utilise essentiellement la suite JetBrains car il s'agit jus
 
 Pour synchroniser les différents fichiers important entre mes différents appareils, j'utilise [Nextcloud](https://nextcloud.com/) self-host sur mon VPS. J'utilise aussi [KDE Connect](https://kdeconnect.kde.org/) pour lier mon téléphone à mon ordinateur.
 
+Toujours dans cette optique de synchronisation, j'utilise aussi [Bitwarden](https://bitwarden.com/) pour avoir accès à tous mes identifiants, mot de passes, tokens et bien plus partout. Par contre, j'ai décidé de self-host mon serveur Bitwarden pour avoir une plein pouvoir sur ces données ! J'utilise donc [Vaultwarden](https://github.com/dani-garcia/vaultwarden) pour pouvoir le faire gratuitement.
+
 ## Utilisation principale
 
 La principale utilisation de cet ordinateur est le développement et le sysadmin.
