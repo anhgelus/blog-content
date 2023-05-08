@@ -1,0 +1,40 @@
+\documentclass[a4paper,fleqn]{article}
+
+\usepackage{bbm}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\date{\today}
+
+\begin{document}
+Je vous laisse le soin de calculer les premiers termes de $x_n$ par vous mêmes. \\
+On en déduit la conjecture suivante :
+\[
+	x_{n+1}=2^n
+\]
+Démontrons le par récurrence. \\
+\\ \\
+Soit $P_n$ une propriété telle que :
+\[
+	P_n:~ x_{n+1}=2^n
+\]
+Montrons que cette propriété est vraie pour tout $n$ appartenant à $\mathbb{N}$. \\ \\
+$\textit{Initialisation}$~ Calculons $2_0$.
+\[
+	2^0 ~=~ 1 ~\textit{Par convention} 
+\]
+Il s'agit exactement de $x_0$. Ainsi $P_n$ est initialisée. \\ \\
+$\textit{Hérédité}$~ Fixons $n$ dans $\mathbb{N}$ tel que $P_n$ soit vraie.
+Alors :
+\begin{alignat*}{3}
+	&&x_{n+1}&&~=~&2^n \\
+	&\Leftrightarrow&x_{n+1}&&~=~&\displaystyle\sum^n_{k=0}x_k \\
+	&\Leftrightarrow&x_{n+2}&&~=~&\displaystyle\sum^n_{k=0}(x_k)+x_{n+1} \\
+	&\Leftrightarrow&x_{n+2}&&~=~&\displaystyle\sum^n_{k=0}(x_k)+\displaystyle\sum^n_{k=0}(x_k) \\
+	&\Leftrightarrow&x_{n+2}&&~=~&2\displaystyle\sum^n_{k=0}(x_k) \\
+	&\Leftrightarrow&x_{n+2}&&~=~&2\times 2^n \\
+	&\Leftrightarrow&x_{n+2}&&~=~&2\times 2^{n+1} \\
+\end{alignat*}
+Ainsi $P_n$ est héréditaire. \\
+Comme $P_0$ est vraie et que $P_n$ est héréditaire, alors, par principe de récurrence, $P_n$ est vraie pour tout $n$ appartenant à $\mathbb{N}$.
+\end{document}
+
