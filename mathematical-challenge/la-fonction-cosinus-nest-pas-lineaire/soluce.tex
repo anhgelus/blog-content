@@ -1,0 +1,43 @@
+\documentclass[a4paper,fleqn]{article}
+
+\usepackage{bbm}
+\usepackage{eucal}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\date{\today}
+
+\begin{document}
+Démontrons que la dérivation de $\cos$ est cyclique par récurrence. \\
+\\ \\
+Soit $P_n$ une propriété telle que :
+\[
+	P_n :~ \cos(x)^{(4+n)} ~=~ \cos(x)^{(n)}
+\]
+Montrons que cette propriété est vraie pour tout $n$ appartenant à $\mathbb{N}$. \\ \\
+$\textit{Initialisation}$~ Calculons $\cos(x)^{(4)}$.
+\begin{alignat*}{3}
+	&&\cos(x)^{(4)}&&~=~&(\cos(x)')^{(3)} \\
+	&\Leftrightarrow&\cos(x)^{(4)}&&~=~& (-\sin(x))^{(3)} \\
+	&\Leftrightarrow&\cos(x)^{(4)}&&~=~& ((-\sin(x))')^{(2)}\\
+	&\Leftrightarrow&\cos(x)^{(4)}&&~=~& (-\cos(x))^{(2)}\\
+	&\Leftrightarrow&\cos(x)^{(4)}&&~=~& ((-\cos(x))')'\\
+	&\Leftrightarrow&\cos(x)^{(4)}&&~=~& (\sin(x))'\\
+	&\Leftrightarrow&\cos(x)^{(4)}&&~=~& \cos(x)\\
+\end{alignat*}
+Il s'agit exactement de $P_0$. Ainsi $P_n$ est initialisée. \\ \\
+$\textit{Hérédité}$~ Fixons $n$ dans $\mathbb{N}$ tel que $P_n$ soit vraie.
+Alors :
+\begin{alignat*}{3}
+	&&\cos(x)^{(4+n)}&&~=~&(\cos(x)')^{(3+n)} \\
+	&\Leftrightarrow&\cos(x)^{(4+n)}&&~=~& (-\sin(x))^{(3+n)} \\
+	&\Leftrightarrow&\cos(x)^{(4+n)}&&~=~& ((-\sin(x))')^{(2+n)}\\
+	&\Leftrightarrow&\cos(x)^{(4+n)}&&~=~& (-\cos(x))^{(2+n)}\\
+	&\Leftrightarrow&\cos(x)^{(4+n)}&&~=~& ((-\cos(x))')^{(1+n)}\\
+	&\Leftrightarrow&\cos(x)^{(4+n)}&&~=~& (\sin(x))^{(1+n)}\\
+	&\Leftrightarrow&\cos(x)^{(4+n)}&&~=~& \cos(x)^{(n)}\\
+\end{alignat*}
+Ainsi $P_n$ est héréditaire. \\
+Comme $P_0$ est vraie et que $P_n$ est héréditaire, alors, par principe de récurrence, $P_n$ est vraie pour tout $n$ appartenant à $\mathbb{N}$. \\ \\
+Comme la dérivation de $\cos$ est cyclique et que ni $\cos$ ni $\sin$, les fonctions apperessants dans ce cycle, est monotone, alors $\cos$ appartient à $\mathcal{C}^\infty$ puisqu'il n'existe pas de dérivé n-ième de $\cos$ qui sont monotones.
+\end{document}
+
