@@ -1,0 +1,30 @@
+\documentclass[a4paper,fleqn]{article}
+
+\usepackage{bbm}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\date{\today}
+
+\begin{document}
+La fonction $f$ est de forme $(f \circ u)$ avec $f$ et $u$ une fonction. \\
+D'après la formule du fou, la dérivé de $f$ sera donc de la forme $u'\times(g' \circ u)$ avec $g(x) = \frac{1}{x}$ et $u(x) = 2(e^x+e^{-x})^2$. \\ \\
+D'après les formules de dérivations, il vient que :
+$$ g'(x)=-\frac{1}{x^2} $$ \\
+La fonction $u$ est de forme $(f \circ u)$ avec $f$ et $u$ une fonction. \\
+D'après la formule du fou, la dérivé de $u$ sera donc de la forme $v'\times(h' \circ v)$ avec $h(x) = x^2$ et $v(x) = e^x+e^{-x}$ \\
+D'après les formules de dérivations, il vient que :
+$$h'(x) = 2x,\quad v'(x) = e^x-e^{-x} $$ \\
+Ainsi :
+\begin{align*}
+	&               & u'(x) &~=~&& 2 \times v'(x) \times h'(v(x)) \\ 
+	&\Leftrightarrow& u'(x) &~=~&& 2 \times (e^x-e^{-x}) \times 2(e^x+e^{-x}) \\
+	&\Leftrightarrow& u'(x) &~=~&& 4(e^x-e^{-x})(e^x+e^{-x}) \\
+\end{align*}
+Alors :
+\begin{align*}
+	&               & f'(x) &~=~&& u'\times(g'(u(x)) \\
+	&\Leftrightarrow& f'(x) &~=~&& 4(e^x-e^{-x})(e^x+e^{-x}) \times \frac{-1}{2(e^x+e^{-x})^2} \\ 
+	&\Leftrightarrow& f'(x) &~=~&& -4(e^x-e^{-x}) \cdot \frac{(e^x+e^{-x})}{2(e^x+e^{-x})^2} \\ 
+\end{align*}
+\end{document}
+
